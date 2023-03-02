@@ -2,21 +2,21 @@
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
-- ☑️ 📦 [Components auto importing](./src/components)
+- 🚧 📦 [Components auto importing](./src/components)
 
-- ☑️ 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+- 🚧 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
-- ☑️ 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 🚧 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-- ☑️ 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
+- 🚧 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
 - 🦾 TypeScript, of course
 
-- ☑️ i18n
+- 🚧 i18n
 
-- ☑️ PWA
+- 🚧 PWA
 
-- ☑️ Markdown
+- 🚧 Markdown
 
 
 ## Pre-packed
