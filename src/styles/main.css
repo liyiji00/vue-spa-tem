@@ -15,9 +15,15 @@ body {
 }
 
 a {
-  color: rgba(128, 128, 128, 0.5);
+  color          : inherit;
+  opacity        : 0.8;
   text-decoration: none;
 }
 a:hover {
-  color: rgba(128, 128, 128, 0.8);
+  opacity: 1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
 }
