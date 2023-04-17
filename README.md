@@ -39,7 +39,7 @@
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/llx-00/vitesse-lite/generate).
+[Create a repo from this template on GitHub](https://github.com/llx-00/vitesse-spa/generate).
 
 ### Clone to local
 
