@@ -1,5 +1,5 @@
 <template>
-  <nav text-xl flex items-center mb-4>
+  <nav text-xl flex items-center p-8>
     <a href="/">Logo</a>
     <div flex-1 />
     <div flex items-center gap-2>
