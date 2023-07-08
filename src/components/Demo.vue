@@ -9,7 +9,7 @@ import viteLogo from '/vite.svg'
     <a href="https://vitejs.dev" target="_blank">
       <img :src='viteLogo' class="logo" alt="Logo Vite" />
     </a>
-    <a href="https://reactjs.org" target="_blank">
+    <a href="https://vuejs.org" target="_blank">
       <img :src='vueLogo' class="logo" alt="Logo Vue" />
     </a>
   </div>
