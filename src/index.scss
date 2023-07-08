@@ -1,12 +1,15 @@
 :root {
+  --c-bg: #fff;
   font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
 }
 
 html {
-  background-color: #fff;
+  background-color: var(--c-bg);
+  overflow-x: hidden;
+  overflow-y: scroll;
 
   &.dark {
-    background-color: #111;
+    --c-bg: #050505;
   }
 }
 
