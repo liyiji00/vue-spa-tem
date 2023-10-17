@@ -4,32 +4,33 @@ import {
   presetIcons,
   presetUno,
   presetWebFonts,
-  // transformerDirectives,
-  // transformerVariantGroup,
-} from 'unocss'
+} from "unocss"
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-teal-700 text-white cursor-pointer hover:bg-teal-600 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
-    ['icon-btn', 'text-[0.9em] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 !outline-none'],
+    [
+      "link",
+      "cursor-pointer select-none transition duration-200 ease-in-out op-70 hover:op-100",
+    ],
+    ["xy-center", "flex justify-center items-center"],
   ],
   presets: [
     presetUno(),
     presetAttributify(),
     presetIcons({
-      scale: 1,
-      warn: true,
+      extraProperties: {
+        display: "inline-block",
+        height: "1.2em",
+        width: "1.2em",
+        "vertical-align": "text-bottom",
+      },
     }),
     presetWebFonts({
+      provider: "google",
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        sans: "Inter:400,600,800",
+        mono: ["JetBrains Mono"],
       },
     }),
   ],
-  // transformers: [
-  //   transformerDirectives(),
-  //   transformerVariantGroup(),
-  // ],
 })
